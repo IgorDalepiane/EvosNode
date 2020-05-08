@@ -4,7 +4,7 @@ import CreateUserService from '../services/CreateUserService'
 const userRouter = Router()
 
 userRouter.post('/register', async (request, response) => {
-  const { email, password, confirmPassword } = request.body
+  const { email, password, confirmPassword, phoneNum, cpf } = request.body
 
   const createUserService = new CreateUserService()
 
@@ -12,6 +12,8 @@ userRouter.post('/register', async (request, response) => {
     email,
     password,
     confirmPassword,
+    phoneNum,
+    cpf,
   })
 
   delete user.password

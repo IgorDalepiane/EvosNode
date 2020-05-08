@@ -12,6 +12,15 @@ class User {
   id: string
 
   @Column()
+  username: string
+
+  @Column()
+  cpf: string
+
+  @Column()
+  phoneNum: string
+
+  @Column()
   email: string
 
   @Column()
