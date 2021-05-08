@@ -38,6 +38,6 @@
     "pg": "^8.0.3",
     "phone": "^2.4.10",
     "reflect-metadata": "^0.1.13",
-    "typeorm": "^0.2.24"
+    "typeorm": "^0.2.25"
   }
 }
